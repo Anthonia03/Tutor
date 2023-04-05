@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+    color: white;
+}
+#logo{
+    text-align: left;
+}
+#button{
+    border: 1px solid royalblue;
+}
+.para{
+    text-align: center;
+}
+.para1{
+    font-size: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.email{
+    width: 350px;
+    height: 50px;
+}
+.click{
+    border: 1px solid royalblue;
+    background-color: rgb(22, 78, 247);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 22px;
+}
+#click{
+    border: 1px solid royalblue;
+    background-color: rgb(22, 78, 247);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 22px;
+    
+}
+
+.group1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.box1{
+    border: 1px solid white;
+    margin: 20px;
+    text-align: center;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.help{
+    background-color: rgb(2, 2, 59);
+}
+.group2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box2{
+    margin: 50px;
+    text-align: center;
+    padding: 30px;
+    display:inline-block;
+}
+#h1{
+   text-align: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+.about{
+    display: inline-block;
+    margin: 90px;
+    
+}
+
+@media  only screen and (max-width:820px)
+{
+    .box1{
+        margin: 10px;    
+    }
+    .box2{
+        margin: 40px;
+    }
+    .about{
+       margin: 20px;
+       margin-top: 130px;
+        
+    }
+    #image{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 1px;
+    }
+
+}
+@media only screen and (max-width:390px)
+{
+    .para1{
+        font-size: 20px;
+        margin-left: 100px;
+        padding: 1px;    
+    }    
+    .para2{
+        margin-left:100px;
+        padding: 1px;
+        font-size: 15px;
+    }
+    form{
+        margin-left: 300px;
+        margin: 40px;
+    }
+    .email{
+        width:190px; 
+        height: 35px;
+        margin-left:38px;
+    }
+    .click{
+        font-size: 12px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .group1{
+        margin-right: 20px;
+        margin-left: 130px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        
+    }
+    .box1{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .box2{
+        margin: 0px;
+        padding: 25px;
+        padding-top: 30px;
+
+    }
+    .profile{
+        margin-left: 100px;
+    }
+    #image{
+        max-width: 150%;
+        margin-left: 60px;
+        
+    }
+}
